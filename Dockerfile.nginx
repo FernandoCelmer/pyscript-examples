@@ -1,0 +1,14 @@
+ARG APP_NAME=app
+ARG APP_PATH=/opt
+
+FROM nginx:alpine
+
+ARG APP_NAME
+ARG APP_PATH
+
+COPY . /usr/share/nginx/html
+COPY ./assets $APP_PATH/assets
+
+COPY ./hello_world $APP_PATH/hello_world
+COPY ./simple_clock $APP_PATH/simple_clock
+COPY ./todo $APP_PATH/todo
