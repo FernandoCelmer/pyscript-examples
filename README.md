@@ -68,3 +68,12 @@ Simple TODO App
 ## License
 
 This project is licensed under the terms of the MIT license.
+
+<link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+<py-script>
+    from datetime import datetime
+    now = datetime.now()
+    display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+</py-script>
