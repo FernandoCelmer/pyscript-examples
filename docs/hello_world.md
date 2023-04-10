@@ -1,3 +1,5 @@
+> Test to see if it works with MkDocs :) I think it works!
+
 <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
 <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 
