@@ -37,21 +37,21 @@ docker run -d -t -p 80:80 nginx/dev
 A static demo of the <py-script> tag
 
 - [https://pyscript.net/examples/hello_world.html](https://pyscript.net/examples/hello_world.html)
-- [http://0.0.0.0/hello_world/](http://0.0.0.0/hello_world/)
+- [http://0.0.0.0/examples/hello_world/](http://0.0.0.0/hello_world/)
 
 ### Simple clock
 
 A dynamic demo of the <py-script> tag
 
 - [https://pyscript.net/examples/simple_clock.html](https://pyscript.net/examples/simple_clock.html)
-- [http://0.0.0.0/hello_world/](http://0.0.0.0/simple_clock/)
+- [http://0.0.0.0/examples/simple_clock/](http://0.0.0.0/simple_clock/)
 
 ### TODO App
 
 Simple TODO App
 
 - [https://pyscript.net/examples/todo.html](https://pyscript.net/examples/todo.html)
-- [http://0.0.0.0/hello_world/](http://0.0.0.0/todo/)
+- [http://0.0.0.0/examples/todo/](http://0.0.0.0/todo/)
 
 ## Commit Style
 
