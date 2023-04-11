@@ -2,6 +2,10 @@ site_name: PyScript
 
 theme:
     name: simple-blog
-    theme_style: dark
     site_name_style: bold
     logo: logo.png
+    colors:
+        primary: white
+        background: black
+        title: orange
+        text: white
